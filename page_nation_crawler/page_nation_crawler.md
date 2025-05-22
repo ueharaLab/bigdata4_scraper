@@ -9,7 +9,7 @@
 [ステーキ](https://tabelog.com/tokyo/A1316/A131603/13042320/dtlrvwlst/COND-0/smp1/?smp=1&lc=0&rvw_part=all&PG=3)
 
 ヒント
-``` python
+```python copy
 # 以下のPG=の部分を固定値でなくて1~5の値をとる変数にして繰り返す。
 
 urllib.request.urlopen('https://tabelog.com/tokyo/A1304/A130402/13041176/dtlrvwlst/COND-0/smp1/?smp=1&lc=0&rvw_part=all&PG=1')

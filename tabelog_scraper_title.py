@@ -14,9 +14,10 @@ for pageNo in range(10):
     root = lxml.html.fromstring(bodyHtml.decode('utf-8',errors='replace'))
 
     title_path = root.xpath("//a[@class='rvw-item__title-target']")
-    for title in title_path:
-        print(title.text_content())
 
+    for title in zip(title_path):
+        print(title.text_content())
+        
 '''
 for pageNo in range(10):
     print('page=',pageNo+1)

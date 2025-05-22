@@ -16,4 +16,3 @@ for pageNo in range(10):
     title_path = root.xpath("//a[@class='rvw-item__title-target']")
     for title in title_path:
         
-
