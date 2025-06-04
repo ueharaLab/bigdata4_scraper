@@ -14,9 +14,9 @@ for pageNo in range(10):
     title_path = root.xpath("//a[@class='rvw-item__title-target']")
     for title in title_path:
 
-        # 1.スライドp.31 のように.get(‘href’)で口コ全文ページへのリンクをスクレイピング
+        # 1.スライドp.37 のように.get(‘href’)で口コ全文ページへのリンクをスクレイピング
 
-        # 2.スライドp.30 のようにhttps://tabelog.com/を連結して url.requestする
+        # 2.スライドp.36 のようにhttps://tabelog.com/を連結して url.requestする
 
         # 3.本文全文を意味するタグを見つけ出す
 
